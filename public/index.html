@@ -11,7 +11,17 @@
       <h1>Newsletter do Pinguim 🐧</h1>
       <p>Receba dicas semanais sobre testes automatizados.</p>
 
-      <!-- 👉 Você vai adicionar o formulário de inscrição aqui no Step 4 (TDD GREEN) -->
+      <form id="newsletter-form">
+        <input 
+          type="email" 
+          aria-label="Seu e-mail" 
+          placeholder="seu@email.com" 
+          required 
+        />
+        <button type="submit">Inscrever</button>
+      </form>
+
+      <div role="status" id="message"></div>
     </main>
 
     <script src="app.js"></script>
